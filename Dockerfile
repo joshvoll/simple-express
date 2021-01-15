@@ -1,3 +1,7 @@
+# Nginx configuration
+FROM nginx:alpine
+COPY nginx.conf /etc/nginx/nginx.conf
+
 # Use NodeJS base image
 FROM node:13
 
